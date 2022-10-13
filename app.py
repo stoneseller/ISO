@@ -1,7 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-st.set_option('deprecation.showfileUploaderEncoding', False) # deprecation 표시 안함 
+st.set_option('deprecation.showfileUploaderEncoding', False) # deprecation 표시 안함
+st.write("made by. 임기택")
 st.title("머신러닝 이용 표준화 분류 시스템")
 st.markdown("""
 머신러닝을 통해 포쥰화 된 것을 분류하고,
